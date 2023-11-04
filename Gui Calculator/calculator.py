@@ -21,10 +21,7 @@ def evaluate_calculation():
          text_result.insert(1.0,"Error")
 
 
-def clear_field():
-    global calculation
-    calculation=""
-    text_result.delete(1.0,"end")        
+     
 
 def clear_field():
     global calculation
